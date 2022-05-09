@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney Plus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!--<i class="fa-solid fa-house"></i>
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-plus"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-film"></i>
+    <i class="fa-solid fa-tv"></i>
+    <i class="fa-solid fa-ellipsis-vertical"></i>-->
+    <div class="background-fixed"></div>
+    <div class="wrapper">
+        <header class="header">
+            <div class="logo">
+                <a class="logo_link" href="#"></a>
+            </div>
+            <nav class="header_navgation">
+                <ul class="nav-menu">
+                    <li class="nav-menu_item">
+                        <a href="#" class="nav-menu_link">
+                            <i class="fa-solid fa-house"></i>
+                            <span class="nav-menu_text">Inicio</span>
+                        </a>
+                    </li>
+                    <li class="nav-menu_item">
+                        <a href="#" class="nav-menu_link">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <span class="nav-menu_text">Pesquisa</span>
+                        </a>
+                    </li>
+                    <li class="nav-menu_item">
+                        <a href="#" class="nav-menu_link">
+                            <i class="fa-solid fa-plus"></i>
+                            <span class="nav-menu_text">Minha lista</span>
+                        </a>
+                    </li>
+                    <li class="nav-menu_item mobile-hidden">
+                        <a href="#" class="nav-menu_link">
+                            <i class="fa-solid fa-star"></i>
+                            <span class="nav-menu_text">Originais</span>
+                        </a>
+                    </li>
+                    <li class="nav-menu_item mobile-hidden">
+                        <a href="#" class="nav-menu_link">
+                            <i class="fa-solid fa-film"></i>
+                            <span class="nav-menu_text">Filmes</span>
+                        </a>
+                    </li>
+                    <li class="nav-menu_item mobile-hidden">
+                        <a href="#" class="nav-menu_link">
+                            <i class="fa-solid fa-tv"></i>
+                            <span class="nav-menu_text">Séries</span>
+                        </a>
+                    </li>
+                    <li class="nav-menu_item dropdown">
+                        <a href="#" class="nav-submenu_link">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                            <span class="nav-menu_text"></span>
+                        </a>
+                        <ul class="nav-submenu">
+                            <li class="nav-submenu_item mobile-hidden">
+                                <a href="#" class="nav-submenu_link">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="nav-submenu_text">Originais</span>
+                                </a>
+                            </li>
+                            <li class="nav-submenu_item mobile-hidden">
+                                <a href="#" class="nav-submenu_link">
+                                    <i class="fa-solid fa-film"></i>
+                                    <span class="nav-submenu_text">Filmes</span>
+                                </a>
+                            </li>
+                            <li class="nav-submenu_item mobile-hidden">
+                                <a href="#" class="nav-submenu_link">
+                                    <i class="fa-solid fa-tv"></i>
+                                    <span class="nav-submenu_text">Séries</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="user-menu">
+                    <div class="user-menu_background show-hover"></div>
+                    <div class="user-menu_current-profile">
+                        <div class="user-profile user-profile--reverse">
+                            <img src="/assets/imgs/avatar.png" alt="" class="user-profile_avatar">
+                            <span class="user-profile_title">Thiago</span>
+                        </div>
+                    </div>
+                    <ul class="user-menu_profiles show-hover">
+                        <li class="user-menu_item">
+                            <div class="user-profile">
+                                <img src="/assets/imgs/avatar.png" alt="" class="user-profile_avatar">
+                                <span class="user-profile_title">Tiara</span>
+                            </div>
+                        </li>
+                        <li class="user-menu_item">
+                            <div class="user-profile">
+                                <img src="/assets/imgs/avatar.png" alt="" class="user-profile_avatar">
+                                <span class="user-profile_title">Vicky</span>
+                            </div>
+                        </li>
+                        <li class="user-menu_item">
+                            <div class="user-profile">
+                                <img src="/assets/imgs/avatar.png" alt="" class="user-profile_avatar">
+                                <span class="user-profile_title">July</span>
+                            </div>
+                        </li>
+                        <li class="user-menu_item">
+                            <div class="user-profile">
+                                <img src="/assets/imgs/avatar.png" alt="" class="user-profile_avatar">
+                                <span class="user-profile_title">Maria</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="user-menu_options show-hover">
+                        <li class="user-menu_item">
+                            <a href="#" class="user-menu_link">Editar Perfis</a>
+                        </li>
+                        <li class="user-menu_item">
+                            <a href="#" class="user-menu_link">Configurações do aplicativo</a>
+                        </li>
+                        <li class="user-menu_item">
+                            <a href="#" class="user-menu_link">Contas</a>
+                        </li>
+                        <li class="user-menu_item">
+                            <a href="#" class="user-menu_link">Ajuda</a>
+                        </li>
+                        <li class="user-menu_item">
+                            <a href="#" class="user-menu_link">Sair</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>    
+</body>
+</html>
